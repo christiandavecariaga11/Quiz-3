@@ -36,7 +36,6 @@ body {
     background-color:darkslategray;
     size: cover;
     color: aqua;
-    align-self: center;
     text-align: center;
     border: 2px solid aliceblue;
     border-radius: 5px;
@@ -47,7 +46,6 @@ body {
     background-color:darkslategray;
     size: cover;
     color:aqua;
-    align-self: center;
     text-align: center;
     border: 2px solid aliceblue;
     border-radius: 5px;
@@ -58,12 +56,13 @@ body {
     background-color:darkslategray;
     background-size: cover;
     align-self: center;
+    text-align: center;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     border:1px solid white;
     font-size: 10px;
+    color:aqua;
     margin-bottom: 50px;
-    color:cyan;
 }
 
 .div1 {
@@ -78,13 +77,49 @@ body {
     border-radius: 10px;
     margin-bottom: 30px;
     color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.p1 {
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+    background-size: cover;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+.p2 {
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+    background-size: cover;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+.p3 {
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+    background-size: cover;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+.p4 {
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+    background-size: cover;
+    padding: 3px;
+    border: 1px solid white;
 }
 
 .div3 {
     margin-top: 20px;
-    display: flex;
     align-self: center;
-    padding: 5px;
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -121,7 +156,8 @@ body {
     background: transparent;
     backdrop-filter: blur(5px);
     border: 1px solid white;
-    padding:10px;
+    margin: 10px;
+    padding: 20px;
     font-size: 20px;
     color: white;
 }
@@ -153,8 +189,12 @@ a:hover {
 }
 
 .art2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-self: center;
-    margin: 10px;
+    margin: 20px;
+    color:cyan;
 }
 
 section {
