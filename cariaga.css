@@ -53,16 +53,11 @@ body {
 }
 
 .header {
-    background-color:darkslategray;
-    background-size: cover;
-    align-self: center;
     text-align: center;
-    padding: 10px;
-    border-radius: 30px;
-    border:1px solid white;
     font-size: 10px;
     color:aqua;
     margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .div1 {
@@ -183,7 +178,6 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    width: 1000px;
     margin: 20px;
     color:cyan;
 }
@@ -192,7 +186,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-self: center;
     margin: 20px;
     color:cyan;
 }
